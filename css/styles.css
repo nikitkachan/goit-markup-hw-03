@@ -75,8 +75,8 @@ body {
 .page-header {
   background-color: var(--white-bg);
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .header-container {
@@ -97,7 +97,8 @@ body {
 
 .logo {
   margin-right: 76px;
-
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: var(
     --secondary-font-family-family
   );
@@ -123,6 +124,8 @@ body {
 }
 
 .nav-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -136,12 +139,20 @@ body {
   color: var(--button-color-pressed);
 }
 
+.header-contacts {
+  display: flex;
+  align-items: center;
+}
+
 .header-contacts-list {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .contact-item-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
