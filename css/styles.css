@@ -1,0 +1,218 @@
+:root {
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family-family: 'Raleway',
+    sans-serif;
+  --primary-text-color-light: #ffffff;
+  --primary-text-color-dark: #434455;
+  --secondary-text-color-light: #f4f4fd;
+  --secondary-text-color-dark: #2e2f42;
+  --brand-primary-color: #4d5ae5;
+  --brand-secondary-color: #f4f4fd;
+  --button-color-pressed: #404bbf;
+  --button-color-succes: #31d0aa;
+  --accent-color-light: #e7e9fc;
+  --white-bg: #ffffff;
+  --dark-bg: #2e2f42;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-family: var(--main-font-family);
+  color: var(--primary-text-color-dark);
+  background-color: var(--white-bg);
+}
+
+/* header */
+
+.page-header {
+  background-color: var(--white-bg);
+}
+
+.logo {
+  font-family: var(
+    --secondary-font-family-family
+  );
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-primary-color);
+}
+
+.logo-footer {
+  color: var(--secondary-text-color-light);
+}
+
+.logo-dark {
+  color: var(--secondary-text-color-dark);
+}
+
+.logo-light {
+  color: var(--secondary-text-color-light);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-dark);
+}
+
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--button-color-pressed);
+}
+
+.contact-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-dark);
+}
+
+.contact-item-link:hover,
+.contact-item-link:focus {
+  color: var(--button-color-pressed);
+}
+
+/* hero */
+
+.hero-section {
+  background-color: var(--dark-bg);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-light);
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-text-color-light);
+  background-color: var(--brand-primary-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--button-color-pressed);
+}
+
+/* features */
+
+.main-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-dark);
+}
+
+.main-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-dark);
+}
+
+/* what are we doing */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text-color-dark);
+}
+
+/* team */
+
+.team-section {
+  background-color: var(--brand-secondary-color);
+}
+
+.team-card {
+  background-color: var(--white-bg);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-dark);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-dark);
+}
+
+/* footer */
+
+.page-footer {
+  background-color: var(--dark-bg);
+}
+
+.footer-message {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-light);
+}
+
+/* portfolio */
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--brand-primary-color);
+  background-color: var(--brand-secondary-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-text-color-light);
+  background-color: var(--button-color-pressed);
+}
