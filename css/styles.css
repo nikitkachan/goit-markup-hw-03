@@ -113,10 +113,6 @@ body {
   color: var(--brand-primary-color);
 }
 
-.logo-footer {
-  color: var(--secondary-text-color-light);
-}
-
 .logo-dark {
   color: var(--secondary-text-color-dark);
 }
@@ -334,6 +330,10 @@ body {
 .page-footer .logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 }
 
 .page-footer {
